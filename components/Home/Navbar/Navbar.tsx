@@ -1,5 +1,6 @@
 "use client";
 
+import ThemeToggle from '@/components/Helper/ThemeToggle';
 import { navLinks } from '@/constant/constant'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -62,6 +63,7 @@ const Navbar = ({openNav}: MobileNavProps) => {
                     </span>
                 </a>
                 {/* Theme Switch Button */}
+                <ThemeToggle />
                 {/* Burger Menu Icon */}
                 <HiBars3BottomRight onClick={openNav} className='text-white w-8 h-8 cursor-pointer lg:hidden'/>
             </div>
