@@ -63,7 +63,7 @@ const Navbar = ({openNav}: MobileNavProps) => {
                 {/* Theme Switch Button */}
                 <ThemeToggle />
                 {/* Burger Menu Icon */}
-                <HiBars3BottomRight onClick={openNav} className='text-white w-8 h-8 cursor-pointer lg:hidden'/>
+                <HiBars3BottomRight onClick={openNav} className='text-white w-8 h-8 cursor-pointer lg:hidden bg-cover'/>
             </div>
         </div>
     </div>
