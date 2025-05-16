@@ -22,7 +22,7 @@ const About = ({imageOrder, textOrder, title, linkText} : Props) => {
                 {/* List */}
                 <div className='mt-8'>
                     <div className='mb-6 flex items-center space-x-4'>
-                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-pink-600 text-white'>
+                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-[#ff5677] text-white'>
                             <FaCheck />
                         </div>
                         <p className='text-sm sm-text-base text-gray-600 dark:text-gray-300'>
@@ -30,7 +30,7 @@ const About = ({imageOrder, textOrder, title, linkText} : Props) => {
                         </p>
                     </div>
                     <div className='mb-6 flex items-center space-x-4'>
-                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-pink-600 text-white'>
+                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-[#ff5677] text-white'>
                             <FaCheck />
                         </div>
                         <p className='text-sm sm-text-base text-gray-600 dark:text-gray-300'>
@@ -38,7 +38,7 @@ const About = ({imageOrder, textOrder, title, linkText} : Props) => {
                         </p>
                     </div>
                     <div className='mb-6 flex items-center space-x-4'>
-                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-pink-600 text-white'>
+                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-[#ff5677] text-white'>
                             <FaCheck />
                         </div>
                         <p className='text-sm sm-text-base text-gray-600 dark:text-gray-300'>
@@ -46,19 +46,19 @@ const About = ({imageOrder, textOrder, title, linkText} : Props) => {
                         </p>
                     </div>
                     <div className='mb-6 flex items-center space-x-4'>
-                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-pink-600 text-white'>
+                        <div className='w-6 h-6 flex flex-col items-center justify-center rounded-full bg-[#ff5677] text-white'>
                             <FaCheck />
                         </div>
                         <p className='text-sm sm-text-base text-gray-600 dark:text-gray-300'>
                             Ergonomic, enfolding design earpads
                         </p>
                     </div>
-                    <p className='font-semibold text-pink-600 cursor-pointer hover:underline w-fit'>{linkText}</p>
+                    <p className='font-semibold text-[#ff5677] cursor-pointer hover:underline w-fit'>{linkText}</p>
                 </div>
             </div>
             {/* Image Content */}
             <div className={`${imageOrder}`}>
-                <Image src="/images/h1.png" alt='image' width={500} height={500}/>
+                <Image src="/images/h1.png" alt='image' width={450} height={450}/>
             </div>
         </div>
     </div>

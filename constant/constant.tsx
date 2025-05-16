@@ -46,42 +46,42 @@ export const featuresData = [
     title: "Touch to Buy",
     description:
       "Experience the convenience of touch controls, allowing you to effortlessly manage your music and calls with a simple tap.",
-      icon: <MdOutlineTouchApp className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <MdOutlineTouchApp className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   {
     id: 2,
     title: "Secure Data",
     description:
       "Secure your data with our advanced fingerprint technology, ensuring that only you can access your device.",
-      icon: <FaFingerprint className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <FaFingerprint className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   {
     id: 3,
     title: "Instant Chat",
     description:
       "Instantly connect with your friends and family through our seamless chat feature, making communication easier than ever.",
-      icon: <HiOutlineChat className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <HiOutlineChat className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   {
     id: 4,
     title: "Live Notifications",
     description:
       "Live notifications keep you updated on important events and messages, ensuring you never miss a beat.",
-      icon: <MdNotifications className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <MdNotifications className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   {
     id: 5,
     title: "WiFi Support",
     description:
       "WiFi support allows you to connect to the internet seamlessly, providing you with fast and reliable connectivity.",
-      icon: <IoWifiOutline className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <IoWifiOutline className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   {
     id: 6,
     title: "App Watch",
     description:
       "App Watch feature lets you monitor your health and fitness, keeping track of your daily activities and goals.",
-      icon: <IoAppsOutline className="w-12 h-12 text-pink-600 mx-auto"/>
+      icon: <IoAppsOutline className="w-12 h-12 text-[#ff5677] mx-auto"/>
   },
   
 ]
