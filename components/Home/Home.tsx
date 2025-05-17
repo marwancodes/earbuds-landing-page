@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero';
 import Features from './Features';
 import About from './About';
+import Reviews from './Reviews/Reviews';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         linkText="Shop Now"
         title="Capture pure sound with 70mm HD drivers"
       />
+      <Reviews />
     </div>
   )
 }
